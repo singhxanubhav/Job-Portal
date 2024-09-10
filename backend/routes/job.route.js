@@ -10,4 +10,7 @@ router.route("/get").get(isAuthenticated, getAllJobs)
 router.route("/getadminjobs").get(isAuthenticated, getAdminJobs) 
 router.route("/get/:id").get(isAuthenticated, getJobById) 
 
+
+
+
 export default router;
